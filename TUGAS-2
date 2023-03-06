@@ -1,0 +1,17 @@
+class Mahasiswa:
+    def _init_(self, nama, nim, kelas, jumlah_sks, semester):
+        self.nama = nama
+        self.nim = nim
+        self.kelas = kelas
+        self.semester = semester
+        self.jumlah_sks = jumlah_sks
+
+    def display_mahasiswa(self):
+        print("Nama :", self.nama)
+        print("NIM :", self.nim)
+        print("Kelas :", self.kelas)
+        print("Semester :", self.semester)
+        print("Jumlah SKS :", self.jumlah_sks)
+
+mahasiswa1 = Mahasiswa("Salma Zurida", "121140064", "RC", 4, 22)
+mahasiswa1.display_mahasiswa()
